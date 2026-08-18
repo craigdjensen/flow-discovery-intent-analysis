@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>FlowDiscovery.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Required because Program.cs calls AddSwaggerGen/UseSwagger/UseSwaggerUI -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+</Project>
